@@ -36,7 +36,6 @@
       min-height: 100vh;
       background: linear-gradient(135deg, var(--color-fondo-gradiente-1), var(--color-fondo-gradiente-2));
       font-family: var(--fuente-carta);
-      user-select: none;
     }
 
     h1 {
@@ -48,14 +47,12 @@
       margin-bottom: 30px;
     }
 
-    /* --- Contenedor --- */
     .contenedor {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
 
-    /* --- Sobre --- */
     .envoltura-sobre {
       position: relative;
       width: 320px;
@@ -91,7 +88,6 @@
       transform: rotateX(180deg);
     }
 
-    /* --- Carta --- */
     .carta {
       position: absolute;
       top: 0;
@@ -144,7 +140,7 @@
         <div class="solapa"></div>
         <div class="carta">
           <p class="saludo">Querida Damaris,</p>
-          <p class="cuerpo">Quiero que sepas lo mucho que significas para mí. Tu sonrisa ilumina mis días y tu presencia es un regalo invaluable.</p>
+          <p class="cuerpo">Quiero que sepas lo mucho que significas para mí. Tu sonrisa ilumina mis días y tu amistad es un regalo invaluable.</p>
           <p class="firma">Con todo mi cariño 💌</p>
         </div>
       </div>
